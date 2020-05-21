@@ -1,0 +1,10 @@
+/* imagen de fondo de la pagina principal */
+body {
+    background: url('../assets/img/cover.jpg') no-repeat center center fixed;
+    /*Esto evita que el usuario pueda hacer scroll */ 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
